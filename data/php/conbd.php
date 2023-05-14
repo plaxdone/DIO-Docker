@@ -9,7 +9,7 @@
 	<center>
 		<?php
 
-		$conn = mysqli_connect("172.26.0.4", "root", "formulario", "contato");
+		$conn = mysqli_connect("172.29.0.3", "root", "formulario", "contato");
 		
 		if($conn === false){
 			die("ERROR: Could not connect. "
